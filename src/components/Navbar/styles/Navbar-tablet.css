@@ -1,0 +1,23 @@
+:root {
+    --purple-custom: #4b263a;
+    --orange-custom: #EE7531;
+}
+@media (min-width: 768px) {
+    .navbar-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 2.4rem;
+    }
+    .logo1-box {
+        padding-left: 18vw;
+        width: 50%;
+    }
+    .logo2-box {
+        padding-left: 18vw;
+        width: 50%;
+    }
+    .menu{
+        font-size: 2.4rem;
+    }
+}

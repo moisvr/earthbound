@@ -1,0 +1,5 @@
+@media (min-width: 1480px) {
+    .homeContainer__characters-box {        
+        max-width: 100%;
+    }
+}

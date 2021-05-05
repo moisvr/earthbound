@@ -1,0 +1,14 @@
+:root {
+    --purple-custom: #4b263a;
+    --orange-custom: #EE7531;
+}
+.Footer {
+    width: 100%;
+    height: 10vh;
+}
+.purple-footer {
+    background: linear-gradient(black, var(--purple-custom));
+}
+.orange-footer {
+    background: linear-gradient(black, var(--orange-custom));
+}
