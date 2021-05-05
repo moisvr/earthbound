@@ -1,0 +1,38 @@
+.homeContainer {
+    width: 100%;
+    background-color: black;
+}
+.homeContainer h1{
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+/** Welcome  */
+.homeContainer__welcome {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.homeContainer__welcome img {
+    width: 90%;
+    max-width: 430px;
+}
+.homeContainer__welcome p {
+    width: 90%;
+    max-width: 550px;
+    font-size: 1.5rem;
+    padding-top: 1.6rem;
+}
+/** Characters */
+.homeContainer__characters-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

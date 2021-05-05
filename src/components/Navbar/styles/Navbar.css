@@ -1,0 +1,37 @@
+:root {
+    --purple-custom: #4b263a;
+    --orange-custom: #EE7531;
+}
+.navbar-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-bottom: var(--purple-custom) solid 2px;
+}
+.purple {
+    background: linear-gradient(var(--purple-custom), black);
+}
+.orange {
+    background: linear-gradient(black, var(--orange-custom));
+}
+
+.logo1{
+    width: 20rem;
+}
+.logo2 {
+    width: 8rem;
+}
+.menu {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    color: white;
+    font-size: 2rem;
+}
+.menu li {
+    padding: 1rem;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+}

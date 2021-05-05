@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+    .homeContainer__characters-box {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 980px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

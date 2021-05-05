@@ -1,0 +1,16 @@
+.blogContainer {
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+/** Banner */
+.blogContainer__banner {
+    height: 35vh;    
+    background: url('../../img/wallpaper1-3.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    display: flex;
+}
