@@ -6,7 +6,7 @@ import './styles/Home.css';
 import './styles/Home-tablet.css';
 import './styles/Home-desktop.css';
 import wallpaper2 from '../img/wallpaper2.jpg';
-import ness from '../img/ness3.jpg';
+// import ness from '../img/ness3.jpg';
 class Home extends Component {
     state = {
         characters: [

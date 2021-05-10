@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ness from '../../img/ness.png';
-import ness2 from '../../img/ness3.jpg';
+// import ness2 from '../../img/ness3.jpg';
 import paula_img from '../../img/Paule_sprite.gif';
 import jeff_img from '../../img/jeff.gif';
 import poo_img from '../../img/poo.gif'
