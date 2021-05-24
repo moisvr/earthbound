@@ -1,16 +1,113 @@
 .blogContainer {
     background-color: black;
     color: white;
-    height: 100vh;
+    height: auto;
 }
 
 /** Banner */
 .blogContainer__banner {
-    height: 35vh;    
+    height: 35vh;
     background: url('../../img/wallpaper1-3.jpg');
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
 
     display: flex;
+    align-items: flex-end;    
+}
+.blogContainer__banner-likes {
+    width: 35%;
+    max-width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.blogContainer__banner-likes:hover {
+    cursor: pointer;
+}
+.blogContainer__banner-likes-hearth {
+    background-image: url('../../img/hearth-outlined.svg');
+    width: 26px;
+    height: 30px;
+
+    animation-duration: 1s;
+    animation-timing-function: steps(60);
+    animation-fill-mode: forwards;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;    
+}
+.blogContainer__banner-likes-hearth.isLoved{
+    color: #98ca3f;
+    background-position: -1560px 0px;
+}
+.blogContainer__banner-likes-hearth.isLoved.animated-like {
+    animation: 1s filledHeart steps(60) forwards;
+}
+.blogContainer__banner-likes-counter {
+    color: #A9AAAD;
+}
+.blogContainer__banner > div {
+    margin: 10px;
+}
+.blogContainer__banner-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.blogContainer__banner-info h3 {
+    width: 100%;
+    font-size: 4.2rem;
+}
+.blogContainer__banner-info-user {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.blogContainer__banner-info-user div {
+    width: 25%;
+    max-width: 30px;
+}
+.blogContainer__banner-info-user img {
+    width: 100%;
+    background-color: rgb(63, 63, 63);
+    border-radius: 20px;
+}
+.blogContainer__banner-info-user-name {
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 2rem;
+    /* width: auto; */
+}
+.blogContainer__banner-info-user-date {
+    /* width: a; */
+    font-size: 1.8rem;
+}
+.blogContainer__banner-info-user-date::before {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f017";
+}
+
+/** Content */
+.blogContainer__content {
+    margin-top: 60px;
+    padding: 15px;
+}
+.blogContainer__content p{
+    font-size: 2rem;
+}
+.blogContainer__content img{
+    max-width: 100%;
+}
+
+@keyframes filledHeart {
+    0% {
+      background-position: 0px 0px;
+    }
+    100% {
+      background-position: -1560px 0px;
+    }
 }

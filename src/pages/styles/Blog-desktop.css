@@ -1,0 +1,10 @@
+@media (min-width: 1024px) {
+    .blogContainer__banner {
+        justify-content: center;
+    }
+    .blogContainer__content {
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
